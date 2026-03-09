@@ -37,8 +37,8 @@ Or import individual files from `@knadh/oat/css` and `@knadh/oat/js`.
 Download the CSS and JS files:
 
 ```shell
-wget https://raw.githubusercontent.com/knadh/oat/refs/heads/gh-pages/oat.min.css
-wget https://raw.githubusercontent.com/knadh/oat/refs/heads/gh-pages/oat.min.js
+wget https://raw.githubusercontent.com/knadh/oat/gh-pages/oat.min.css
+wget https://raw.githubusercontent.com/knadh/oat/gh-pages/oat.min.js
 ```
 
 Then include them in your project:
