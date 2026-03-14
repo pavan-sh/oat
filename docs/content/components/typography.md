@@ -15,7 +15,7 @@ Base text elements are styled automatically. No classes needed.
 <h5>Heading 5</h5>
 <h6>Heading 6</h6>
 
-<p>This is a paragraph with <strong>bold text</strong>, <em>italic text</em>, and <a href="#">a link</a>.</p>
+<p>This is a paragraph with <strong>bold text</strong>, <em>italic text</em>, and <a href="https://example.com">a link</a>.</p>
 
 <p>Here's some <code>inline code</code> and a code block:</p>
 
