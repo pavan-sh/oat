@@ -21,13 +21,13 @@
       overlay 150ms ease allow-discrete,
       display 150ms ease allow-discrete;
 
-    &[open] {
+    &:is([open], :popover-open) {
       opacity: 1;
       transform: scale(1);
     }
 
     @starting-style {
-      &[open] {
+      &:is([open], :popover-open) {
         opacity: 0;
         transform: scale(0.95);
       }
@@ -41,12 +41,12 @@
         display 150ms ease allow-discrete;
     }
 
-    &[open]::backdrop {
+    &:is([open], :popover-open)::backdrop {
       background-color: rgb(0 0 0 / 0.5);
     }
 
     @starting-style {
-      &[open]::backdrop {
+      &:is([open], :popover-open)::backdrop {
         background-color: rgb(0 0 0 / 0);
       }
     }
