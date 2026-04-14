@@ -23,7 +23,7 @@ Tables are styled by default. Use `<thead>` and `<tbody>` tags. Wrap in a `class
         <td>Alice Johnson</td>
         <td>alice@example.com</td>
         <td>Admin</td>
-        <td><span class="badge success">Active</span></td>
+        <td><span class="badge" data-variant="success">Active</span></td>
       </tr>
       <tr>
         <td>Bob Smith</td>
@@ -35,7 +35,7 @@ Tables are styled by default. Use `<thead>` and `<tbody>` tags. Wrap in a `class
         <td>Carol White</td>
         <td>carol@example.com</td>
         <td>Viewer</td>
-        <td><span class="badge secondary">Pending</span></td>
+        <td><span class="badge" data-variant="secondary">Pending</span></td>
       </tr>
     </tbody>
   </table>

@@ -11,18 +11,18 @@
     color: var(--primary-foreground);
     border-radius: var(--radius-full);
 
-    &.secondary {
-      background-color: var(--secondary);
-      color: var(--secondary-foreground);
-    }
-
     &.outline {
       background-color: transparent;
       color: var(--foreground);
       border: 1px solid var(--border);
     }
 
-    &.success {
+    &[data-variant="secondary"] {
+      background-color: var(--secondary);
+      color: var(--secondary-foreground);
+    }
+
+    &[data-variant="success"] {
       color: var(--success);
       background-color: light-dark(
         color-mix(in srgb, var(--success) 10%, transparent),
@@ -30,7 +30,7 @@
       );
     }
 
-    &.warning {
+    &[data-variant="warning"] {
       color: var(--warning);
       background-color: light-dark(
         color-mix(in srgb, var(--warning) 10%, transparent),
@@ -38,7 +38,7 @@
       );
     }
 
-    &.danger {
+    &[data-variant="danger"] {
       color: var(--danger);
       background-color: light-dark(
         color-mix(in srgb, var(--danger) 10%, transparent),
